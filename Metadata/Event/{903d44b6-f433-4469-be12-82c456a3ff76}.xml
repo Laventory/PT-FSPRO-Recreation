@@ -96,8 +96,14 @@
 	<object class="MixerBusPanner" id="{5fb0cdf4-23cf-4e12-a89b-954b44f199c0}" />
 	<object class="SingleSound" id="{a3c7c7fd-fd8a-4449-b9d2-b10d8f8feac6}">
 		<property name="length">
-			<value>1.5945833333333332</value>
+			<value>1.5945833333333335</value>
 		</property>
+		<property name="pitch">
+			<value>3</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{88cb8e4b-84a2-4424-ac57-355ff3003cb6}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{2487b0ed-7343-49fa-b87a-7f76a520c44e}</destination>
 		</relationship>
@@ -119,12 +125,19 @@
 	<object class="MixerBusEffectChain" id="{e74bec01-beb2-457f-8bd4-569086e65731}">
 		<relationship name="effects">
 			<destination>{c612af2f-eeea-4d21-8ad5-f2557372f795}</destination>
-			<destination>{af4e7d76-b005-44fe-8c49-b38f4d71b188}</destination>
 			<destination>{6bd5b39d-ae05-488e-88ce-1b73e83b71aa}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{8e4fe5c1-aa14-46bd-bb93-a5958daffe5e}" />
 	<object class="MixerBusFader" id="{43d47b44-9dc1-4b09-a5cd-c48036b4f851}" />
+	<object class="RandomizerModulator" id="{88cb8e4b-84a2-4424-ac57-355ff3003cb6}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>8.33333397</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{f63a3372-9713-4016-ba56-d4dd9820c412}">
 		<relationship name="effects">
 			<destination>{8d25baf8-a0ee-4bca-a0b5-50306c025c8b}</destination>
@@ -132,14 +145,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{3d0920c6-193a-4c52-9960-31fa7d3d960d}" />
 	<object class="MixerBusFader" id="{c612af2f-eeea-4d21-8ad5-f2557372f795}" />
-	<object class="PitchShifterEffect" id="{af4e7d76-b005-44fe-8c49-b38f4d71b188}">
-		<property name="pitch">
-			<value>1.14999998</value>
-		</property>
-		<relationship name="modulators">
-			<destination>{59ae87a6-addd-4c63-9709-2299057f21b5}</destination>
-		</relationship>
-	</object>
 	<object class="ProxyEffect" id="{6bd5b39d-ae05-488e-88ce-1b73e83b71aa}">
 		<property name="inputFormat">
 			<value>0</value>
@@ -149,12 +154,4 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{8d25baf8-a0ee-4bca-a0b5-50306c025c8b}" />
-	<object class="RandomizerModulator" id="{59ae87a6-addd-4c63-9709-2299057f21b5}">
-		<property name="nameOfPropertyBeingModulated">
-			<value>pitch</value>
-		</property>
-		<property name="amount">
-			<value>13.5</value>
-		</property>
-	</object>
 </objects>

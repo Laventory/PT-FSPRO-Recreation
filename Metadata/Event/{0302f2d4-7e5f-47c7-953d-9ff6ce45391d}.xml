@@ -112,9 +112,6 @@
 		<property name="pitch">
 			<value>-3</value>
 		</property>
-		<relationship name="modulators">
-			<destination>{a771d67c-6e1b-422a-ad56-5d232c96e8fb}</destination>
-		</relationship>
 		<relationship name="audioFile">
 			<destination>{d53d67b4-1b45-45be-8107-6b68bca9097d}</destination>
 		</relationship>
@@ -126,9 +123,6 @@
 		<property name="length">
 			<value>0.0390625</value>
 		</property>
-		<relationship name="modulators">
-			<destination>{c697b5d1-0660-48e4-8cbe-6a2e1d322c8f}</destination>
-		</relationship>
 		<relationship name="audioFile">
 			<destination>{d53d67b4-1b45-45be-8107-6b68bca9097d}</destination>
 		</relationship>
@@ -143,9 +137,6 @@
 		<property name="pitch">
 			<value>-3</value>
 		</property>
-		<relationship name="modulators">
-			<destination>{c565359a-fc1a-4003-ab08-0b2ce3f378be}</destination>
-		</relationship>
 		<relationship name="audioFile">
 			<destination>{d53d67b4-1b45-45be-8107-6b68bca9097d}</destination>
 		</relationship>
@@ -200,30 +191,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{2251def8-5b2b-4796-93bb-0f7dead1e20f}" />
 	<object class="MixerBusFader" id="{ea5ce12a-9cae-41c4-a9b3-5e17ab857d57}" />
-	<object class="RandomizerModulator" id="{a771d67c-6e1b-422a-ad56-5d232c96e8fb}">
-		<property name="nameOfPropertyBeingModulated">
-			<value>pitch</value>
-		</property>
-		<property name="amount">
-			<value>10.416666</value>
-		</property>
-	</object>
-	<object class="RandomizerModulator" id="{c697b5d1-0660-48e4-8cbe-6a2e1d322c8f}">
-		<property name="nameOfPropertyBeingModulated">
-			<value>pitch</value>
-		</property>
-		<property name="amount">
-			<value>10.416666</value>
-		</property>
-	</object>
-	<object class="RandomizerModulator" id="{c565359a-fc1a-4003-ab08-0b2ce3f378be}">
-		<property name="nameOfPropertyBeingModulated">
-			<value>pitch</value>
-		</property>
-		<property name="amount">
-			<value>10.416666</value>
-		</property>
-	</object>
 	<object class="MixerBusEffectChain" id="{85f44072-5306-4dd9-865f-d0c2b8d229f0}">
 		<relationship name="effects">
 			<destination>{c6dc2712-0546-4757-9b50-eedfe821a0d4}</destination>
