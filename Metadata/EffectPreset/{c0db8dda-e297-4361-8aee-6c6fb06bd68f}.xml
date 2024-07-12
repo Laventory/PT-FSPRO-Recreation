@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EffectPreset" id="{c0db8dda-e297-4361-8aee-6c6fb06bd68f}">
+		<property name="name">
+			<value>Muffler</value>
+		</property>
+		<relationship name="folder">
+			<destination>{b66d9da3-1346-4c06-ad00-4acf7ca4197c}</destination>
+		</relationship>
+		<relationship name="effect">
+			<destination>{aa682653-6b95-49c7-a656-e293e254d2f1}</destination>
+		</relationship>
+	</object>
+	<object class="ThreeEQEffect" id="{aa682653-6b95-49c7-a656-e293e254d2f1}">
+		<property name="midGain">
+			<value>-80</value>
+		</property>
+		<property name="highGain">
+			<value>-15.5</value>
+		</property>
+		<property name="lowCrossover">
+			<value>660</value>
+		</property>
+		<property name="highCrossover">
+			<value>22000</value>
+		</property>
+		<property name="crossoverSlope">
+			<value>0</value>
+		</property>
+		<relationship name="automators">
+			<destination>{f494e5d2-9e70-450f-a0c9-7b7b7414e7cf}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{f494e5d2-9e70-450f-a0c9-7b7b7414e7cf}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>lowCrossover</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{4b23d049-2e16-415c-a71e-b94c691aaeb6}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationCurve" id="{4b23d049-2e16-415c-a71e-b94c691aaeb6}">
+		<relationship name="parameter">
+			<destination>{2c8e0c9a-8127-421e-8500-df8251692467}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{ef493da5-506a-4931-bc1a-6e2940ab579a}</destination>
+			<destination>{3da76398-5d95-41ea-a2d9-ac08eddacde5}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationPoint" id="{ef493da5-506a-4931-bc1a-6e2940ab579a}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>22000</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{3da76398-5d95-41ea-a2d9-ac08eddacde5}">
+		<property name="position">
+			<value>1</value>
+		</property>
+		<property name="value">
+			<value>600</value>
+		</property>
+	</object>
+</objects>

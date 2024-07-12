@@ -64,7 +64,7 @@
 	<object class="MarkerTrack" id="{7d2da1c0-90f0-475c-8b45-4d81d45c7835}" />
 	<object class="GroupTrack" id="{7a6b7cd9-4050-4103-af9e-3d9498957622}">
 		<relationship name="modules">
-			<destination>{ab26ca3a-ac59-4868-a9eb-87a41f172091}</destination>
+			<destination>{48780bad-a034-4864-9b77-564a0e43d578}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{b5290dbc-bb9f-4f3a-85ad-2b51ade49e10}</destination>
@@ -72,10 +72,10 @@
 	</object>
 	<object class="Timeline" id="{9afc2717-bdeb-4002-942d-c5fffc271cea}">
 		<relationship name="modules">
-			<destination>{ab26ca3a-ac59-4868-a9eb-87a41f172091}</destination>
+			<destination>{48780bad-a034-4864-9b77-564a0e43d578}</destination>
 		</relationship>
 		<relationship name="markers">
-			<destination>{80018170-1fa7-408b-9738-29607cb9bb1c}</destination>
+			<destination>{a3031f36-be50-4014-ad72-cdf1ff7766e9}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{a24613d8-d081-4058-9be5-122476bb7e03}">
@@ -95,12 +95,15 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{9b31162e-b679-4dec-9a57-178853cb705b}" />
-	<object class="SingleSound" id="{ab26ca3a-ac59-4868-a9eb-87a41f172091}">
+	<object class="SingleSound" id="{48780bad-a034-4864-9b77-564a0e43d578}">
 		<property name="length">
-			<value>75.428562499999998</value>
+			<value>44.015718377784651</value>
+		</property>
+		<property name="timelockedOffset">
+			<value>0.24689959727164235</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{10db9425-3257-4cc9-ada5-51f9017df102}</destination>
+			<destination>{3c9fe623-d62d-447e-aec6-e3ef52987891}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{b5290dbc-bb9f-4f3a-85ad-2b51ade49e10}">
@@ -117,12 +120,12 @@
 			<destination>{a24613d8-d081-4058-9be5-122476bb7e03}</destination>
 		</relationship>
 	</object>
-	<object class="LoopRegion" id="{80018170-1fa7-408b-9738-29607cb9bb1c}">
+	<object class="LoopRegion" id="{a3031f36-be50-4014-ad72-cdf1ff7766e9}">
 		<property name="position">
-			<value>0</value>
+			<value>6.2913176240595696</value>
 		</property>
 		<property name="length">
-			<value>75.428562499999998</value>
+			<value>37.724400753725085</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{9afc2717-bdeb-4002-942d-c5fffc271cea}</destination>
