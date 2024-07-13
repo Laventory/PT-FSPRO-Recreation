@@ -5,7 +5,7 @@
 			<value>finaljudgement_verdict</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{c1ae0dde-11dd-4c53-8c14-391e555b8d23}</destination>
@@ -68,6 +68,7 @@
 		</relationship>
 		<relationship name="modules">
 			<destination>{e6e439b6-9984-4697-82ad-a466e5c713ac}</destination>
+			<destination>{f9264188-b51d-47a8-9a63-7511c597f4f2}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{4f1a04e9-2d6b-4054-a806-453f417313ac}</destination>
@@ -88,6 +89,7 @@
 		<relationship name="modules">
 			<destination>{e6e439b6-9984-4697-82ad-a466e5c713ac}</destination>
 			<destination>{6d12f54d-64ea-407f-8099-8c25ff28dc07}</destination>
+			<destination>{f9264188-b51d-47a8-9a63-7511c597f4f2}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{acac504d-6f60-49df-9f47-06d549e595dc}">
@@ -118,6 +120,17 @@
 		</property>
 		<relationship name="audioFile">
 			<destination>{b0d4692a-1a16-40c3-81d8-215f2756d5d0}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{f9264188-b51d-47a8-9a63-7511c597f4f2}">
+		<property name="length">
+			<value>3.4172291666666665</value>
+		</property>
+		<property name="volume">
+			<value>2</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{38acaa00-a127-4a33-932a-1dc2ad0a9249}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{4f1a04e9-2d6b-4054-a806-453f417313ac}">

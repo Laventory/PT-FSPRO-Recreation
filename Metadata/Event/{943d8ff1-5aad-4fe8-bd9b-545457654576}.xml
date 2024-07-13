@@ -63,7 +63,7 @@
 	<object class="MarkerTrack" id="{45330a48-25c7-4994-a9a0-47cedbe4f5fb}" />
 	<object class="GroupTrack" id="{45d97f0b-33b8-47bf-bdf3-869a16ab93cc}">
 		<relationship name="modules">
-			<destination>{0224c1a3-a893-47da-8ed4-7c56c9ac23ad}</destination>
+			<destination>{16c65181-6432-4c64-9bca-5d3dec7a5c3e}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{893b0e6e-0252-4444-b314-06e715f3bf32}</destination>
@@ -71,10 +71,10 @@
 	</object>
 	<object class="Timeline" id="{ce423b16-3821-4871-a12d-9b59e11055cd}">
 		<relationship name="modules">
-			<destination>{0224c1a3-a893-47da-8ed4-7c56c9ac23ad}</destination>
+			<destination>{16c65181-6432-4c64-9bca-5d3dec7a5c3e}</destination>
 		</relationship>
 		<relationship name="markers">
-			<destination>{c0fd1721-2ea2-44a7-bfff-982fa7082165}</destination>
+			<destination>{abdf1e0f-01a1-4895-bb16-d8b095edaa3d}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{e1667912-64b2-4f49-b0c7-b14465bf35dd}">
@@ -94,15 +94,18 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{b0fb3c92-b13f-4074-8412-8c679c9fd74e}" />
-	<object class="SingleSound" id="{0224c1a3-a893-47da-8ed4-7c56c9ac23ad}">
+	<object class="SingleSound" id="{16c65181-6432-4c64-9bca-5d3dec7a5c3e}">
 		<property name="length">
-			<value>16.602937499999999</value>
+			<value>11.928719668871274</value>
+		</property>
+		<property name="timelockedOffset">
+			<value>0.022103230695107525</value>
 		</property>
 		<property name="volume">
-			<value>-8</value>
+			<value>-5</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{773011f2-7f30-4f5a-9a9c-0e847987c0dc}</destination>
+			<destination>{58d2f62f-50f4-4407-8bff-9aa674f16b94}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{893b0e6e-0252-4444-b314-06e715f3bf32}">
@@ -119,12 +122,12 @@
 			<destination>{e1667912-64b2-4f49-b0c7-b14465bf35dd}</destination>
 		</relationship>
 	</object>
-	<object class="LoopRegion" id="{c0fd1721-2ea2-44a7-bfff-982fa7082165}">
+	<object class="LoopRegion" id="{abdf1e0f-01a1-4895-bb16-d8b095edaa3d}">
 		<property name="position">
-			<value>2.3552185960591125</value>
+			<value>0</value>
 		</property>
 		<property name="length">
-			<value>14.186262815578843</value>
+			<value>11.928719668871274</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{ce423b16-3821-4871-a12d-9b59e11055cd}</destination>
@@ -150,7 +153,7 @@
 	<object class="MixerBusFader" id="{9ad6dd60-50cf-44e1-9ec7-49c6314ee705}" />
 	<object class="ProxyEffect" id="{9791849b-dc07-4c10-9e54-5d8d6466e5d1}">
 		<property name="inputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="preset">
 			<destination>{3f886746-6580-4216-9237-8e68eb3c04bc}</destination>

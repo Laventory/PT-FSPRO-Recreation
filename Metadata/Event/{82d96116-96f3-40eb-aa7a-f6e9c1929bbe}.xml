@@ -95,8 +95,9 @@
 	</object>
 	<object class="GroupTrack" id="{bf7958a4-8f4e-43b5-a1ad-e8367dceab10}">
 		<relationship name="modules">
-			<destination>{02335dcd-4d3d-411c-bb1c-2a557daabaa2}</destination>
 			<destination>{56d97b60-e6f9-42f0-8132-1a4c91f8955b}</destination>
+			<destination>{14d9d747-3330-4db6-8e4a-0daacbad7c5d}</destination>
+			<destination>{4eda22b8-5d00-409e-aa57-921ec894c783}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{38d03552-4140-46c3-80a4-9da46ddc3f5e}</destination>
@@ -111,8 +112,9 @@
 			<destination>{2f5cd440-b54c-4aa2-85ec-bea7c1c5ca9a}</destination>
 			<destination>{7562c63b-7f4d-4e60-a42d-5805a362744d}</destination>
 			<destination>{f81b639a-54e1-427a-b2b5-6c3b8bade13b}</destination>
-			<destination>{02335dcd-4d3d-411c-bb1c-2a557daabaa2}</destination>
 			<destination>{56d97b60-e6f9-42f0-8132-1a4c91f8955b}</destination>
+			<destination>{14d9d747-3330-4db6-8e4a-0daacbad7c5d}</destination>
+			<destination>{4eda22b8-5d00-409e-aa57-921ec894c783}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{f40bfe3f-6ea9-4b18-a5e1-0d10ed78d8da}">
@@ -259,10 +261,6 @@
 		<property name="length">
 			<value>2.5270000000000001</value>
 		</property>
-		<relationship name="triggerConditions">
-			<destination>{16bce112-5c8a-4ea2-aa5a-56c94af6e8d2}</destination>
-			<destination>{6edf666a-36b8-4660-8dee-f937f5afb5ce}</destination>
-		</relationship>
 		<relationship name="audioFile">
 			<destination>{be053788-99b8-477b-a403-2a9bc569f662}</destination>
 		</relationship>
@@ -296,17 +294,6 @@
 			<destination>{f40bfe3f-6ea9-4b18-a5e1-0d10ed78d8da}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{02335dcd-4d3d-411c-bb1c-2a557daabaa2}">
-		<property name="length">
-			<value>3.7000000000000002</value>
-		</property>
-		<property name="timelockedOffset">
-			<value>0.029000000000000001</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{cc565ba3-197a-40d2-ac63-f543b8e7d61f}</destination>
-		</relationship>
-	</object>
 	<object class="SingleSound" id="{56d97b60-e6f9-42f0-8132-1a4c91f8955b}">
 		<property name="start">
 			<value>5.4800000000000004</value>
@@ -326,6 +313,31 @@
 		</relationship>
 		<relationship name="audioFile">
 			<destination>{c9f97b87-577d-44fc-a43a-0bf48e17d0b5}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{14d9d747-3330-4db6-8e4a-0daacbad7c5d}">
+		<property name="start">
+			<value>3.6000000000000001</value>
+		</property>
+		<property name="length">
+			<value>1.2000000000000006</value>
+		</property>
+		<property name="timelockedOffset">
+			<value>6.2680589892925553</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{03c64a26-8639-410b-972e-245d67932cd9}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{4eda22b8-5d00-409e-aa57-921ec894c783}">
+		<property name="length">
+			<value>3.6000000000000001</value>
+		</property>
+		<property name="timelockedOffset">
+			<value>2.0985749546729622</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{03c64a26-8639-410b-972e-245d67932cd9}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{38d03552-4140-46c3-80a4-9da46ddc3f5e}">
@@ -473,28 +485,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{7736bea4-1e1b-4854-89a7-a9d6c5fb67d6}" />
-	<object class="ParameterCondition" id="{16bce112-5c8a-4ea2-aa5a-56c94af6e8d2}">
-		<property name="minimum">
-			<value>0</value>
-		</property>
-		<property name="maximum">
-			<value>0</value>
-		</property>
-		<relationship name="parameter">
-			<destination>{38d9fc90-84c5-429b-8821-d9ccfaf3509c}</destination>
-		</relationship>
-	</object>
-	<object class="ParameterCondition" id="{6edf666a-36b8-4660-8dee-f937f5afb5ce}">
-		<property name="minimum">
-			<value>0</value>
-		</property>
-		<property name="maximum">
-			<value>0</value>
-		</property>
-		<relationship name="parameter">
-			<destination>{12966d73-ab52-4ff8-a82c-821c08570bec}</destination>
-		</relationship>
-	</object>
 	<object class="ParameterCondition" id="{cd4a3fe9-c361-47cb-8b0a-b66c9c65beef}">
 		<property name="minimum">
 			<value>0</value>

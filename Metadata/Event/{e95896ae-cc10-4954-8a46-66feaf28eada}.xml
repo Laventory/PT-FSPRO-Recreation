@@ -63,7 +63,8 @@
 	<object class="MarkerTrack" id="{fd316692-49e8-4878-b6e1-97af4e53a955}" />
 	<object class="GroupTrack" id="{c7481bdf-5b5a-46ca-ba10-ce776e6c7ea6}">
 		<relationship name="modules">
-			<destination>{7a4d177e-866d-4924-98cb-77b6df5174e9}</destination>
+			<destination>{abb588b8-f956-47e4-955b-46294c43abdd}</destination>
+			<destination>{8773de7c-b4c9-48ab-afcc-e528fe0eac49}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{5098b139-8b71-4147-9219-cc9b0136c251}</destination>
@@ -71,7 +72,8 @@
 	</object>
 	<object class="Timeline" id="{d1ef3a9a-2092-48d8-9241-b39e4779a292}">
 		<relationship name="modules">
-			<destination>{7a4d177e-866d-4924-98cb-77b6df5174e9}</destination>
+			<destination>{abb588b8-f956-47e4-955b-46294c43abdd}</destination>
+			<destination>{8773de7c-b4c9-48ab-afcc-e528fe0eac49}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{fa6eeabb-6af8-47d0-8c9d-8c662d952df2}">
@@ -91,18 +93,35 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{2ce3f435-369e-4c6c-b327-28071000d3f6}" />
-	<object class="SingleSound" id="{7a4d177e-866d-4924-98cb-77b6df5174e9}">
+	<object class="SingleSound" id="{abb588b8-f956-47e4-955b-46294c43abdd}">
 		<property name="length">
-			<value>2.8652291666666665</value>
+			<value>0.90000000000000002</value>
 		</property>
-		<property name="volume">
-			<value>-1</value>
+		<property name="timelockedOffset">
+			<value>0.10550535970853858</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{e67ba6e6-d8e6-4112-bb58-da8eb7ecb6e4}</destination>
+			<destination>{ae052b61-357e-4d9d-85ce-6480ebeebbdd}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{8773de7c-b4c9-48ab-afcc-e528fe0eac49}">
+		<property name="start">
+			<value>0.90000000000000002</value>
+		</property>
+		<property name="length">
+			<value>2.2000000000000002</value>
+		</property>
+		<property name="timelockedOffset">
+			<value>5.705505359708539</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{ae052b61-357e-4d9d-85ce-6480ebeebbdd}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{5098b139-8b71-4147-9219-cc9b0136c251}">
+		<property name="volume">
+			<value>-9.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
