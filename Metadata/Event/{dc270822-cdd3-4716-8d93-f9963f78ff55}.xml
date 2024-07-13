@@ -1019,9 +1019,6 @@
 		<relationship name="markerTrack">
 			<destination>{3923a053-ba42-40a6-a0b7-949e426c61c1}</destination>
 		</relationship>
-		<relationship name="triggerConditions">
-			<destination>{e177c612-4e48-4609-902a-a57bf46b9643}</destination>
-		</relationship>
 	</object>
 	<object class="NamedMarker" id="{05803e64-d4a4-470b-b73e-c52d876d8c74}">
 		<property name="position">
@@ -1809,9 +1806,6 @@
 		<property name="maximum">
 			<value>4</value>
 		</property>
-		<property name="isInverted">
-			<value>true</value>
-		</property>
 		<relationship name="parameter">
 			<destination>{8e74c9aa-ea9a-4865-ab4f-6157b28453df}</destination>
 		</relationship>
@@ -1827,17 +1821,6 @@
 			<destination>{004fc141-cf8b-4778-97e1-e4818d544aee}</destination>
 			<destination>{bd0b5a34-4968-4fda-ad3b-6dfd86d915d5}</destination>
 			<destination>{ef79c5b4-5c69-4a23-81e5-5bed8481573c}</destination>
-		</relationship>
-	</object>
-	<object class="ParameterCondition" id="{e177c612-4e48-4609-902a-a57bf46b9643}">
-		<property name="minimum">
-			<value>5</value>
-		</property>
-		<property name="maximum">
-			<value>6</value>
-		</property>
-		<relationship name="parameter">
-			<destination>{8e74c9aa-ea9a-4865-ab4f-6157b28453df}</destination>
 		</relationship>
 	</object>
 	<object class="TransitionTimeline" id="{c5a8e6db-8d71-4594-9b95-9c9262b93c5b}">
