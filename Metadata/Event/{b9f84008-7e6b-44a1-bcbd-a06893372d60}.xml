@@ -5,7 +5,7 @@
 			<value>rampjump</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{0fcd0620-0005-4dbe-8b4e-a6d443dd4e2d}</destination>
@@ -63,7 +63,7 @@
 	<object class="MarkerTrack" id="{4ac059cc-34c4-4566-8a4c-d16d7f1e05e6}" />
 	<object class="GroupTrack" id="{0fe459c3-f7e5-43d5-90ef-dd0d457d0f72}">
 		<relationship name="modules">
-			<destination>{70f78395-9460-4c63-8440-09b3f18c18d1}</destination>
+			<destination>{632490e0-c5f6-48be-8fd8-08391c1416d9}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{814f7654-af97-4429-8977-64697880156a}</destination>
@@ -71,7 +71,7 @@
 	</object>
 	<object class="Timeline" id="{65cff974-7936-4846-95f0-59f84f9a2a81}">
 		<relationship name="modules">
-			<destination>{70f78395-9460-4c63-8440-09b3f18c18d1}</destination>
+			<destination>{632490e0-c5f6-48be-8fd8-08391c1416d9}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{3acc0efe-ce47-406d-bdc8-f4a125deec85}">
@@ -91,15 +91,18 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{08614f18-afae-486b-9b12-93b8be6c7419}" />
-	<object class="SingleSound" id="{70f78395-9460-4c63-8440-09b3f18c18d1}">
+	<object class="SingleSound" id="{632490e0-c5f6-48be-8fd8-08391c1416d9}">
 		<property name="length">
-			<value>1.2</value>
+			<value>0.83999999999999997</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{14ea03fb-a1ce-4b9d-98bd-f9c0d1912a7b}</destination>
+			<destination>{142ffa1e-61e8-4cf0-b68d-0ac08a5b320c}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{814f7654-af97-4429-8977-64697880156a}">
+		<property name="volume">
+			<value>2</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
