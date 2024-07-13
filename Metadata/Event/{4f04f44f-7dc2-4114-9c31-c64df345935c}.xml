@@ -229,9 +229,6 @@
 		<property name="length">
 			<value>107.66401360544218</value>
 		</property>
-		<property name="volume">
-			<value>-1</value>
-		</property>
 		<relationship name="audioFile">
 			<destination>{8176e2a2-6edf-44de-b562-fbecff99aab2}</destination>
 		</relationship>
@@ -255,7 +252,7 @@
 			<value>160</value>
 		</property>
 		<property name="volume">
-			<value>-0.5</value>
+			<value>-1</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{7f76c411-4cda-4c11-8cfe-abffbe48211d}</destination>
@@ -282,6 +279,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{5fa5d93f-7b06-4864-bae1-d5c3ecbdd1c5}">
+		<property name="volume">
+			<value>0.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
