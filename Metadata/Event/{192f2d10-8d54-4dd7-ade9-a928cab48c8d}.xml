@@ -63,7 +63,7 @@
 	<object class="MarkerTrack" id="{6c211793-5dcc-4929-808b-8ca08c4cf71e}" />
 	<object class="GroupTrack" id="{714807be-4c1a-4a84-b999-6121f557abcb}">
 		<relationship name="modules">
-			<destination>{7b96ee7d-3e8d-47dc-a257-01d336abe281}</destination>
+			<destination>{00842f4b-348e-4ec8-9fb9-f1af8da5e231}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{40293e1a-2a20-442e-b3dc-dd4b116d4089}</destination>
@@ -71,7 +71,7 @@
 	</object>
 	<object class="Timeline" id="{d616a57d-6d61-4541-bdf6-86d5a6a762f9}">
 		<relationship name="modules">
-			<destination>{7b96ee7d-3e8d-47dc-a257-01d336abe281}</destination>
+			<destination>{00842f4b-348e-4ec8-9fb9-f1af8da5e231}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{19871bb3-24ff-457d-b15a-13a71676308c}">
@@ -91,18 +91,18 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e2faa433-8f36-4a3e-b2c7-6a8575aabd48}" />
-	<object class="SingleSound" id="{7b96ee7d-3e8d-47dc-a257-01d336abe281}">
+	<object class="SingleSound" id="{00842f4b-348e-4ec8-9fb9-f1af8da5e231}">
 		<property name="length">
-			<value>1.2</value>
-		</property>
-		<property name="volume">
-			<value>-2</value>
+			<value>2.1842857142857142</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{75572f3c-48da-44ef-8b1a-73fda2f00ced}</destination>
+			<destination>{bfc9f0e8-6611-491f-b1e6-501ca605f809}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{40293e1a-2a20-442e-b3dc-dd4b116d4089}">
+		<property name="volume">
+			<value>-8</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -133,7 +133,7 @@
 	<object class="MixerBusFader" id="{5f18b90f-230b-4d4f-b39f-af4808abb745}" />
 	<object class="ProxyEffect" id="{5704c901-7df1-4b86-854e-c28e0cfb9466}">
 		<property name="inputFormat">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<relationship name="preset">
 			<destination>{3f886746-6580-4216-9237-8e68eb3c04bc}</destination>
