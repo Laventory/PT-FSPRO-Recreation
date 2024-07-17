@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{a20059b3-841d-4365-b7a5-a8aa1bf37cf8}">
-		<property name="note" />
 		<property name="name">
 			<value>pizzatime</value>
 		</property>
@@ -197,9 +196,6 @@
 			<destination>{a64a7ecb-43e8-4101-b048-53fe1c9cbc95}</destination>
 			<destination>{4d1e9e99-3013-4df6-bdc6-8928be83ef7b}</destination>
 			<destination>{7afe675e-4b62-4182-8391-4feab916125f}</destination>
-		</relationship>
-		<relationship name="playPercentages">
-			<destination>{cbab7161-49bf-49e0-9540-dc65d7970ca6}</destination>
 		</relationship>
 	</object>
 	<object class="TransitionDestinationSound" id="{1eadf82a-8ad1-4e3d-8b7e-7a8c4ad97580}">
@@ -722,14 +718,6 @@
 	<object class="EventSound" id="{7afe675e-4b62-4182-8391-4feab916125f}">
 		<relationship name="event">
 			<destination>{199fb1f9-0cb3-43b3-be29-52c0077a19c6}</destination>
-		</relationship>
-	</object>
-	<object class="PlayPercentage" id="{cbab7161-49bf-49e0-9540-dc65d7970ca6}">
-		<property name="percentage">
-			<value>100</value>
-		</property>
-		<relationship name="sound">
-			<destination>{fd6671ba-472a-4b0c-9094-bb3b7e39bf83}</destination>
 		</relationship>
 	</object>
 	<object class="TransitionDestinationFadeInCurve" id="{16db1864-0099-4a6d-b6fc-7377de32d8fd}">
