@@ -27,6 +27,7 @@
 			<destination>{e4960a19-47d0-483a-a087-f0079691d4c2}</destination>
 			<destination>{ee93f8fb-4412-4b8d-96d6-26f4955cfd1a}</destination>
 			<destination>{1df2effc-fd59-4ffb-b429-42bf2cffc5b0}</destination>
+			<destination>{ab9e2db7-c424-42c1-9e1a-4972b72a121d}</destination>
 		</relationship>
 		<relationship name="groupTracks">
 			<destination>{4e28c6e1-da2a-4acd-b970-08d22e60ab1a}</destination>
@@ -71,6 +72,7 @@
 	<object class="MarkerTrack" id="{e4960a19-47d0-483a-a087-f0079691d4c2}" />
 	<object class="MarkerTrack" id="{ee93f8fb-4412-4b8d-96d6-26f4955cfd1a}" />
 	<object class="MarkerTrack" id="{1df2effc-fd59-4ffb-b429-42bf2cffc5b0}" />
+	<object class="MarkerTrack" id="{ab9e2db7-c424-42c1-9e1a-4972b72a121d}" />
 	<object class="GroupTrack" id="{4e28c6e1-da2a-4acd-b970-08d22e60ab1a}">
 		<relationship name="automationTracks">
 			<destination>{a686e1d5-3e43-426a-84ba-5af6037da1d8}</destination>
@@ -119,6 +121,7 @@
 			<destination>{bf328de0-e968-44f8-9361-457cdceaf860}</destination>
 			<destination>{9b0b03d9-19b3-412c-a061-7f13c6dba976}</destination>
 			<destination>{442eeee2-30a2-4480-bc09-786750bc48fa}</destination>
+			<destination>{20d184ef-af63-4bf4-ae18-05a0ea2de86c}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{0fd1a566-c705-4e62-ab3d-8cf2fe582872}">
@@ -622,6 +625,20 @@
 		</relationship>
 		<relationship name="triggerConditions">
 			<destination>{d13a7646-daff-4611-af39-1d29c5f9f9f0}</destination>
+		</relationship>
+	</object>
+	<object class="LoopRegion" id="{20d184ef-af63-4bf4-ae18-05a0ea2de86c}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="length">
+			<value>65</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{e6566576-3326-4dc4-a4c1-0b136d6ee86d}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{ab9e2db7-c424-42c1-9e1a-4972b72a121d}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{0a47be38-96cd-42b3-9182-dd0c7e983e3a}">
