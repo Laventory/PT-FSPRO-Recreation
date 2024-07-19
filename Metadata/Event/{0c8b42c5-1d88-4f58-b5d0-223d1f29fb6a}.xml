@@ -698,9 +698,6 @@
 		<property name="length">
 			<value>49</value>
 		</property>
-		<property name="volume">
-			<value>-80</value>
-		</property>
 		<relationship name="event">
 			<destination>{058072c2-1469-48db-b204-9be5de80b332}</destination>
 		</relationship>
@@ -1669,6 +1666,7 @@
 			<destination>{cf1ca000-759c-4a08-b20b-206f31e1a1b8}</destination>
 			<destination>{64c4e3f4-8cfd-431e-81e1-2e7a9f620084}</destination>
 			<destination>{d76bf856-db9d-437a-b552-662cfb6a6d1e}</destination>
+			<destination>{5040495b-67ce-4e06-ae9a-b543002f74ae}</destination>
 		</relationship>
 		<relationship name="transitionTimeline">
 			<destination>{7717ce3d-209f-4ec5-80ad-7ea7a47ee7de}</destination>
@@ -2976,6 +2974,17 @@
 		</property>
 		<relationship name="parameter">
 			<destination>{293800c4-c302-47aa-a5db-a89cef232670}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{5040495b-67ce-4e06-ae9a-b543002f74ae}">
+		<property name="minimum">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>1</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{1c41967e-f17f-4187-a845-f07b548c796d}</destination>
 		</relationship>
 	</object>
 	<object class="TransitionTimeline" id="{7717ce3d-209f-4ec5-80ad-7ea7a47ee7de}">
