@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{ab0d75ba-34d0-4c74-9b43-c0d8f102ebcc}">
-		<property name="note" />
+		<property name="note">
+			<value>why use a marker when you could have it go to the loop region</value>
+		</property>
 		<property name="name">
 			<value>credits</value>
 		</property>
@@ -96,7 +98,6 @@
 		</relationship>
 		<relationship name="markers">
 			<destination>{740768cc-c488-4477-bd79-224690e2d46b}</destination>
-			<destination>{dd2768dd-b8d6-4d0c-ad15-f9bd86e8387d}</destination>
 			<destination>{8580a6fe-1eda-43b4-8c1c-7485ea5b1d22}</destination>
 		</relationship>
 	</object>
@@ -121,9 +122,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{9eb8a92c-f90a-49fb-a86a-c1a48baf1b9a}" />
 	<object class="SingleSound" id="{83994d7c-a079-45df-9b51-bb7e998924bc}">
-		<property name="start">
-			<value>63.076420783192845</value>
-		</property>
 		<property name="length">
 			<value>169.88879818594106</value>
 		</property>
@@ -205,7 +203,7 @@
 	</object>
 	<object class="TransitionRegion" id="{740768cc-c488-4477-bd79-224690e2d46b}">
 		<property name="position">
-			<value>0</value>
+			<value>169.88879818594106</value>
 		</property>
 		<property name="length">
 			<value>63.076420783192845</value>
@@ -217,25 +215,11 @@
 			<destination>{5db9bcdd-7a40-4852-83e8-13a05cf56d40}</destination>
 		</relationship>
 		<relationship name="destination">
-			<destination>{dd2768dd-b8d6-4d0c-ad15-f9bd86e8387d}</destination>
+			<destination>{8580a6fe-1eda-43b4-8c1c-7485ea5b1d22}</destination>
 		</relationship>
 		<relationship name="triggerConditions">
 			<destination>{0350d241-eef2-43f0-ad6b-502832b9deba}</destination>
 			<destination>{8bbaf603-e35f-4b1c-9c6c-051a76fac961}</destination>
-		</relationship>
-	</object>
-	<object class="NamedMarker" id="{dd2768dd-b8d6-4d0c-ad15-f9bd86e8387d}">
-		<property name="position">
-			<value>63.076420783192845</value>
-		</property>
-		<property name="name">
-			<value>P</value>
-		</property>
-		<relationship name="timeline">
-			<destination>{28f8cbef-252e-4870-92ef-0db590f90b8d}</destination>
-		</relationship>
-		<relationship name="markerTrack">
-			<destination>{5db9bcdd-7a40-4852-83e8-13a05cf56d40}</destination>
 		</relationship>
 	</object>
 	<object class="LoopRegion" id="{8580a6fe-1eda-43b4-8c1c-7485ea5b1d22}">
