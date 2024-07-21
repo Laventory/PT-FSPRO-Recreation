@@ -101,6 +101,9 @@
 		<property name="playlistMode">
 			<value>3</value>
 		</property>
+		<relationship name="triggerConditions">
+			<destination>{82d7fd26-e5cb-4fd4-8315-58b169155f56}</destination>
+		</relationship>
 		<relationship name="sounds">
 			<destination>{a7b897f6-7ebb-435e-8c87-afdd23e6cd13}</destination>
 			<destination>{fab7b1af-c936-4139-ac60-ff2de3a1cbf2}</destination>
@@ -128,6 +131,20 @@
 	</object>
 	<object class="MixerBusPanner" id="{52df8821-7bd8-4856-9bb3-140cdf8f9afc}" />
 	<object class="MixerBusFader" id="{727f7607-3581-41ab-b40a-d5e0595db5f9}" />
+	<object class="ParameterCondition" id="{82d7fd26-e5cb-4fd4-8315-58b169155f56}">
+		<property name="minimum">
+			<value>3</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="isInverted">
+			<value>true</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{293800c4-c302-47aa-a5db-a89cef232670}</destination>
+		</relationship>
+	</object>
 	<object class="SingleSound" id="{a7b897f6-7ebb-435e-8c87-afdd23e6cd13}">
 		<relationship name="audioFile">
 			<destination>{4e5f528e-3779-4428-a2aa-cc533f5ce60a}</destination>
