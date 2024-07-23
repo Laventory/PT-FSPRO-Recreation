@@ -170,9 +170,6 @@
 		<relationship name="modulators">
 			<destination>{03078210-63eb-4c7b-8321-c893f6bd8e2f}</destination>
 		</relationship>
-		<relationship name="triggerConditions">
-			<destination>{f30a75ac-6874-473f-ab93-751d196e2b2f}</destination>
-		</relationship>
 		<relationship name="audioFile">
 			<destination>{58343376-1c82-4cac-b34f-f4f6656f7d7c}</destination>
 		</relationship>
@@ -197,9 +194,6 @@
 		</property>
 		<property name="length">
 			<value>2.5823125</value>
-		</property>
-		<property name="volume">
-			<value>-5</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{107d0c79-f1e7-455c-ae49-2ff7bb0cf0de}</destination>
@@ -290,17 +284,6 @@
 		<property name="finalValue">
 			<value>-80</value>
 		</property>
-	</object>
-	<object class="ParameterCondition" id="{f30a75ac-6874-473f-ab93-751d196e2b2f}">
-		<property name="minimum">
-			<value>0</value>
-		</property>
-		<property name="maximum">
-			<value>0</value>
-		</property>
-		<relationship name="parameter">
-			<destination>{38d9fc90-84c5-429b-8821-d9ccfaf3509c}</destination>
-		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{a50a7df4-1b4d-4e64-91e7-39173f8a6dde}">
 		<relationship name="effects">
