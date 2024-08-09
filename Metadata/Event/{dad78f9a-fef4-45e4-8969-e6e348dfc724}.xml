@@ -66,7 +66,6 @@
 	<object class="MarkerTrack" id="{347afefa-43d7-4932-82b8-80ebbda6be62}" />
 	<object class="GroupTrack" id="{30adbba2-ee62-466c-860b-6f8caac29eda}">
 		<relationship name="modules">
-			<destination>{12047347-09c5-4547-9696-a78fb8c48af6}</destination>
 			<destination>{22fbf2d3-cde3-4762-9ce4-3094ee02acfc}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
@@ -80,7 +79,6 @@
 	</object>
 	<object class="ParameterProxy" id="{34c42225-b946-49a9-8c1e-05f5b61a0b2a}">
 		<relationship name="modules">
-			<destination>{12047347-09c5-4547-9696-a78fb8c48af6}</destination>
 			<destination>{22fbf2d3-cde3-4762-9ce4-3094ee02acfc}</destination>
 		</relationship>
 		<relationship name="preset">
@@ -104,17 +102,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{72e65a8d-700f-432e-b247-c85d00f6b794}" />
-	<object class="SingleSound" id="{12047347-09c5-4547-9696-a78fb8c48af6}">
-		<property name="start">
-			<value>1</value>
-		</property>
-		<property name="startOffset">
-			<value>12</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{b5411fb2-6c02-4d47-977a-57fd33f0cf30}</destination>
-		</relationship>
-	</object>
 	<object class="SingleSound" id="{22fbf2d3-cde3-4762-9ce4-3094ee02acfc}">
 		<property name="startOffset">
 			<value>3.5</value>

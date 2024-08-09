@@ -5,7 +5,7 @@
 			<value>shotgungot</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{0fcd0620-0005-4dbe-8b4e-a6d443dd4e2d}</destination>
@@ -67,7 +67,6 @@
 	<object class="GroupTrack" id="{9a4d456f-c27c-4828-abf4-dbfa3048ad59}">
 		<relationship name="modules">
 			<destination>{06e17d26-3878-4ebf-aa89-a9e4d39a2544}</destination>
-			<destination>{6a5c77bb-daa3-4609-98d4-ce16576f5ce0}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{d5234e2a-954c-40d5-8e86-3ecde794cd50}</destination>
@@ -81,7 +80,6 @@
 	<object class="ParameterProxy" id="{a8086524-34e2-4106-b575-775239d32367}">
 		<relationship name="modules">
 			<destination>{06e17d26-3878-4ebf-aa89-a9e4d39a2544}</destination>
-			<destination>{6a5c77bb-daa3-4609-98d4-ce16576f5ce0}</destination>
 		</relationship>
 		<relationship name="preset">
 			<destination>{38d9fc90-84c5-429b-8821-d9ccfaf3509c}</destination>
@@ -115,20 +113,6 @@
 			<destination>{1b94efad-8b76-43d1-89aa-74a7814cd880}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{6a5c77bb-daa3-4609-98d4-ce16576f5ce0}">
-		<property name="start">
-			<value>1</value>
-		</property>
-		<property name="volume">
-			<value>3</value>
-		</property>
-		<relationship name="triggerConditions">
-			<destination>{d7bd1e84-1e44-4a39-97a4-708b4961e1eb}</destination>
-		</relationship>
-		<relationship name="audioFile">
-			<destination>{7b44448a-1eff-40e0-bc46-586d94a9e7d0}</destination>
-		</relationship>
-	</object>
 	<object class="EventMixerGroup" id="{d5234e2a-954c-40d5-8e86-3ecde794cd50}">
 		<property name="name">
 			<value>Audio 1</value>
@@ -156,17 +140,6 @@
 		</property>
 		<property name="maximum">
 			<value>0</value>
-		</property>
-		<relationship name="parameter">
-			<destination>{38d9fc90-84c5-429b-8821-d9ccfaf3509c}</destination>
-		</relationship>
-	</object>
-	<object class="ParameterCondition" id="{d7bd1e84-1e44-4a39-97a4-708b4961e1eb}">
-		<property name="minimum">
-			<value>1</value>
-		</property>
-		<property name="maximum">
-			<value>1</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{38d9fc90-84c5-429b-8821-d9ccfaf3509c}</destination>

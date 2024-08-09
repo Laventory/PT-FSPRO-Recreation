@@ -49,7 +49,6 @@
 	</object>
 	<object class="MasterTrack" id="{07cfc813-5a2a-4939-9a65-c2b223a1ffa5}">
 		<relationship name="modules">
-			<destination>{8821099c-87da-4a05-8d1e-27f1a6e666a2}</destination>
 			<destination>{bee58db5-bc79-454a-9395-aaac4939b70d}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
@@ -93,7 +92,6 @@
 	</object>
 	<object class="ParameterProxy" id="{3128f21a-1f9e-4b1c-811a-3a306ebe5c11}">
 		<relationship name="modules">
-			<destination>{8821099c-87da-4a05-8d1e-27f1a6e666a2}</destination>
 			<destination>{bee58db5-bc79-454a-9395-aaac4939b70d}</destination>
 		</relationship>
 		<relationship name="preset">
@@ -109,14 +107,6 @@
 		</relationship>
 		<relationship name="mixer">
 			<destination>{3ceb742d-d0ef-4967-bc17-17b12fe50dcb}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{8821099c-87da-4a05-8d1e-27f1a6e666a2}">
-		<property name="start">
-			<value>1</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{766f80a1-d938-47f1-99b9-5edc659dad93}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{bee58db5-bc79-454a-9395-aaac4939b70d}">

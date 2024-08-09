@@ -67,7 +67,6 @@
 	<object class="GroupTrack" id="{e3cc4a27-b89a-4e14-b478-e4e1f61afdc1}">
 		<relationship name="modules">
 			<destination>{927a7e6a-c215-411c-bb8f-2b75ed8876ab}</destination>
-			<destination>{957e2d76-8800-4f8c-b7c1-4f539ec65ec4}</destination>
 			<destination>{a8984a9a-bf7e-4e2e-a8a2-ac6c320cd231}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
@@ -81,7 +80,6 @@
 	</object>
 	<object class="ParameterProxy" id="{83a7d18c-b255-47e4-a631-03007b39a986}">
 		<relationship name="modules">
-			<destination>{957e2d76-8800-4f8c-b7c1-4f539ec65ec4}</destination>
 			<destination>{a8984a9a-bf7e-4e2e-a8a2-ac6c320cd231}</destination>
 		</relationship>
 		<relationship name="preset">
@@ -119,26 +117,6 @@
 			<destination>{f2690704-5b94-4551-bd24-a848a680035f}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{957e2d76-8800-4f8c-b7c1-4f539ec65ec4}">
-		<property name="start">
-			<value>1</value>
-		</property>
-		<property name="startOffset">
-			<value>24.5</value>
-		</property>
-		<property name="timelockedOffset">
-			<value>0.75582463567323488</value>
-		</property>
-		<property name="volume">
-			<value>3</value>
-		</property>
-		<relationship name="triggerConditions">
-			<destination>{52fb384b-a91e-4daf-9831-463ea49c1e4c}</destination>
-		</relationship>
-		<relationship name="audioFile">
-			<destination>{67caa5c9-0817-4083-aa54-743365fd307d}</destination>
-		</relationship>
-	</object>
 	<object class="SingleSound" id="{a8984a9a-bf7e-4e2e-a8a2-ac6c320cd231}">
 		<relationship name="triggerConditions">
 			<destination>{eb63f2b7-929b-41ad-93f8-c785642f3864}</destination>
@@ -168,17 +146,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{7c11da66-b607-4262-8f68-b485074c0aae}" />
 	<object class="MixerBusFader" id="{fd7fc38c-dcab-491e-8134-78117f5db5dc}" />
-	<object class="ParameterCondition" id="{52fb384b-a91e-4daf-9831-463ea49c1e4c}">
-		<property name="minimum">
-			<value>1</value>
-		</property>
-		<property name="maximum">
-			<value>1</value>
-		</property>
-		<relationship name="parameter">
-			<destination>{38d9fc90-84c5-429b-8821-d9ccfaf3509c}</destination>
-		</relationship>
-	</object>
 	<object class="ParameterCondition" id="{eb63f2b7-929b-41ad-93f8-c785642f3864}">
 		<property name="minimum">
 			<value>0</value>
