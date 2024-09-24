@@ -776,7 +776,6 @@
 		<relationship name="triggerConditions">
 			<destination>{e1e7b2c3-9c97-479f-922e-8d67ef4c0b44}</destination>
 			<destination>{785d67f2-b4d6-4245-880d-2ac3c94d0b03}</destination>
-			<destination>{c0f2e32e-d420-4e4b-8a3d-84304795c2d8}</destination>
 		</relationship>
 	</object>
 	<object class="TransitionMarker" id="{bf986793-c1c4-40a4-ac21-433006ca4b48}">
@@ -798,7 +797,6 @@
 		<relationship name="triggerConditions">
 			<destination>{b44e9c8d-e735-4f61-b2f2-6a0a0c7f3af4}</destination>
 			<destination>{3bb9402d-ee7a-4e2a-9d8e-feee7dd6fb55}</destination>
-			<destination>{203ada31-deed-4c62-8cac-e58da0e30500}</destination>
 		</relationship>
 	</object>
 	<object class="TransitionMarker" id="{3e5d9d5a-35b2-4a7b-89c9-731d02f88676}">
@@ -817,7 +815,6 @@
 		<relationship name="triggerConditions">
 			<destination>{85e563c5-b9bb-4709-b06d-a164988b29b3}</destination>
 			<destination>{5ed08377-28c4-4277-9bf2-8baa54335c6e}</destination>
-			<destination>{66d08250-109d-471e-a751-3e1ed8f3cf08}</destination>
 		</relationship>
 	</object>
 	<object class="LoopRegion" id="{02db194a-6d39-4a17-b7f7-a8bdf84fb7b5}">
@@ -897,7 +894,6 @@
 		<relationship name="triggerConditions">
 			<destination>{589e051f-5d01-46cf-87da-ec356515d6fa}</destination>
 			<destination>{5c0af670-2ef4-4eb3-bda6-3e1e1391123b}</destination>
-			<destination>{586eb6c8-90ff-4953-b0d4-55111f1d61cc}</destination>
 		</relationship>
 	</object>
 	<object class="LoopRegion" id="{d5ddad38-3e45-42c1-94c2-84b82be89171}">
@@ -1004,9 +1000,6 @@
 		</property>
 		<property name="length">
 			<value>900</value>
-		</property>
-		<property name="triggerProbabilityEnabled">
-			<value>true</value>
 		</property>
 		<property name="triggerProbability">
 			<value>0</value>
@@ -1398,17 +1391,6 @@
 			<destination>{8e74c9aa-ea9a-4865-ab4f-6157b28453df}</destination>
 		</relationship>
 	</object>
-	<object class="ParameterCondition" id="{c0f2e32e-d420-4e4b-8a3d-84304795c2d8}">
-		<property name="minimum">
-			<value>1</value>
-		</property>
-		<property name="maximum">
-			<value>1</value>
-		</property>
-		<relationship name="parameter">
-			<destination>{12966d73-ab52-4ff8-a82c-821c08570bec}</destination>
-		</relationship>
-	</object>
 	<object class="ParameterCondition" id="{b44e9c8d-e735-4f61-b2f2-6a0a0c7f3af4}">
 		<property name="minimum">
 			<value>1</value>
@@ -1431,17 +1413,6 @@
 			<destination>{8e74c9aa-ea9a-4865-ab4f-6157b28453df}</destination>
 		</relationship>
 	</object>
-	<object class="ParameterCondition" id="{203ada31-deed-4c62-8cac-e58da0e30500}">
-		<property name="minimum">
-			<value>1</value>
-		</property>
-		<property name="maximum">
-			<value>1</value>
-		</property>
-		<relationship name="parameter">
-			<destination>{12966d73-ab52-4ff8-a82c-821c08570bec}</destination>
-		</relationship>
-	</object>
 	<object class="ParameterCondition" id="{85e563c5-b9bb-4709-b06d-a164988b29b3}">
 		<property name="minimum">
 			<value>0</value>
@@ -1462,17 +1433,6 @@
 		</property>
 		<relationship name="parameter">
 			<destination>{8e74c9aa-ea9a-4865-ab4f-6157b28453df}</destination>
-		</relationship>
-	</object>
-	<object class="ParameterCondition" id="{66d08250-109d-471e-a751-3e1ed8f3cf08}">
-		<property name="minimum">
-			<value>1</value>
-		</property>
-		<property name="maximum">
-			<value>1</value>
-		</property>
-		<relationship name="parameter">
-			<destination>{12966d73-ab52-4ff8-a82c-821c08570bec}</destination>
 		</relationship>
 	</object>
 	<object class="TransitionTimeline" id="{74611723-0327-4b8a-a693-b31312ab5908}">
@@ -1525,17 +1485,6 @@
 		</property>
 		<relationship name="parameter">
 			<destination>{8e74c9aa-ea9a-4865-ab4f-6157b28453df}</destination>
-		</relationship>
-	</object>
-	<object class="ParameterCondition" id="{586eb6c8-90ff-4953-b0d4-55111f1d61cc}">
-		<property name="minimum">
-			<value>1</value>
-		</property>
-		<property name="maximum">
-			<value>1</value>
-		</property>
-		<relationship name="parameter">
-			<destination>{12966d73-ab52-4ff8-a82c-821c08570bec}</destination>
 		</relationship>
 	</object>
 	<object class="TransitionTimeline" id="{a7dba279-23b5-44ca-9b0b-28033eab99df}">

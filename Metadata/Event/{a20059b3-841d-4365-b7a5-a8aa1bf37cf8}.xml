@@ -246,6 +246,7 @@
 			<destination>{7eb98e16-bc0d-49f5-ab6c-160bd5af8e9c}</destination>
 			<destination>{5396e05e-e8c5-4d12-9eca-b41708ecf49e}</destination>
 			<destination>{21dda9f5-82d0-4088-aa03-ccc0701114d3}</destination>
+			<destination>{59423ba2-c0c1-4c70-8e1c-951499f31f64}</destination>
 		</relationship>
 	</object>
 	<object class="MultiSound" id="{2763920f-641d-4c75-910b-79edce0b5e94}">
@@ -1050,6 +1051,11 @@
 			<destination>{88480fcb-7a61-4bd0-aaa0-514ae649a90d}</destination>
 		</relationship>
 	</object>
+	<object class="EventSound" id="{59423ba2-c0c1-4c70-8e1c-951499f31f64}">
+		<relationship name="event">
+			<destination>{c0e4f1ae-be22-4c25-81f8-ca3216d5874b}</destination>
+		</relationship>
+	</object>
 	<object class="EventSound" id="{348b0975-165d-4133-9b89-d3ee6f7ed8cb}">
 		<relationship name="event">
 			<destination>{c4ace56a-9727-4f5d-abd5-fce837dd038a}</destination>
@@ -1427,7 +1433,7 @@
 			<value>0</value>
 		</property>
 		<property name="maximum">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{38d9fc90-84c5-429b-8821-d9ccfaf3509c}</destination>
@@ -1438,7 +1444,7 @@
 			<value>0</value>
 		</property>
 		<property name="maximum">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{12966d73-ab52-4ff8-a82c-821c08570bec}</destination>
