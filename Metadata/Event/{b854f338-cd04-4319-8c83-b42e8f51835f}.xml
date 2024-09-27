@@ -636,6 +636,7 @@
 		<relationship name="triggerConditions">
 			<destination>{73504d85-3eae-436d-b79a-f12bd7161fd5}</destination>
 			<destination>{48c2da55-a9af-442a-892e-407340752f91}</destination>
+			<destination>{e700fc16-b23f-4d5e-82b2-d3403b53298b}</destination>
 		</relationship>
 	</object>
 	<object class="TransitionRegion" id="{9b0b03d9-19b3-412c-a061-7f13c6dba976}">
@@ -976,6 +977,17 @@
 		</property>
 		<relationship name="parameter">
 			<destination>{8e74c9aa-ea9a-4865-ab4f-6157b28453df}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{e700fc16-b23f-4d5e-82b2-d3403b53298b}">
+		<property name="minimum">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>1</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{12966d73-ab52-4ff8-a82c-821c08570bec}</destination>
 		</relationship>
 	</object>
 	<object class="ParameterCondition" id="{2d5fd6dd-3c7d-4048-bc8c-9d8ab3efaebc}">

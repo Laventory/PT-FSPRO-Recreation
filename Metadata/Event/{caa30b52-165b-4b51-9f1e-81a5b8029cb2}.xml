@@ -137,11 +137,8 @@
 	</object>
 	<object class="TransitionSourceSound" id="{2d9da292-51c2-435d-bac5-b88215985bad}">
 		<property name="length">
-			<value>4</value>
+			<value>0</value>
 		</property>
-		<relationship name="fadeOutCurve">
-			<destination>{d5744e75-db7a-4152-b92b-b995790df89a}</destination>
-		</relationship>
 	</object>
 	<object class="SingleSound" id="{4330cdc3-adfd-4db4-999a-6e698342be74}">
 		<property name="length">
@@ -282,17 +279,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{cecf2688-e1b4-4c38-ae3a-9f2a8e4692a1}" />
 	<object class="MixerBusFader" id="{86c93daf-ac5c-4fcd-b9c8-13a9e257e54f}" />
-	<object class="TransitionSourceFadeOutCurve" id="{d5744e75-db7a-4152-b92b-b995790df89a}">
-		<relationship name="startPoint">
-			<destination>{ca80438a-a20e-431d-a233-72b91f04a897}</destination>
-		</relationship>
-		<relationship name="endPoint">
-			<destination>{f972c794-7a91-469e-a01f-b3191288c1ff}</destination>
-		</relationship>
-		<relationship name="relatedModule">
-			<destination>{0b015e3f-39ed-4572-8996-9ab2a7623788}</destination>
-		</relationship>
-	</object>
 	<object class="ParameterCondition" id="{d1a86a18-343b-42c4-bfe9-f11e1feb4e18}">
 		<property name="minimum">
 			<value>0</value>
@@ -363,25 +349,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{e59bddce-f389-4d6d-8b83-8c2318f8d0dd}" />
-	<object class="AutomationPoint" id="{ca80438a-a20e-431d-a233-72b91f04a897}">
-		<property name="position">
-			<value>0</value>
-		</property>
-		<property name="value">
-			<value>1</value>
-		</property>
-		<property name="curveShape">
-			<value>0.25471893</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{f972c794-7a91-469e-a01f-b3191288c1ff}">
-		<property name="position">
-			<value>4</value>
-		</property>
-		<property name="value">
-			<value>0</value>
-		</property>
-	</object>
 	<object class="MixerBusFader" id="{39e351ef-76c6-4c63-8c45-79c77193dba2}" />
 	<object class="AutomationPoint" id="{1b2b642a-b70b-4c1a-9f29-8fae5c230813}">
 		<property name="position">

@@ -248,9 +248,6 @@
 		<relationship name="markerTrack">
 			<destination>{bfa697aa-077c-4cf2-a079-906442304f2a}</destination>
 		</relationship>
-		<relationship name="triggerConditions">
-			<destination>{216a2b17-9657-47c6-aee4-31cc63d1791a}</destination>
-		</relationship>
 	</object>
 	<object class="LoopRegion" id="{f46f7449-3c57-4b40-8510-c64cf1a7f132}">
 		<property name="position">
@@ -264,6 +261,9 @@
 		</relationship>
 		<relationship name="markerTrack">
 			<destination>{f518d5e9-71ce-4aa9-a156-598c1f221b3f}</destination>
+		</relationship>
+		<relationship name="triggerConditions">
+			<destination>{29714ff6-0f7c-4914-9821-b75ec0faf156}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{c4986c59-c30b-4106-aa66-67ad746587d9}">
@@ -301,12 +301,12 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{1491ac7f-d5a3-4e15-b350-e4a1bef1df77}" />
-	<object class="ParameterCondition" id="{216a2b17-9657-47c6-aee4-31cc63d1791a}">
+	<object class="ParameterCondition" id="{29714ff6-0f7c-4914-9821-b75ec0faf156}">
 		<property name="minimum">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<property name="maximum">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{d007ca56-a21d-4355-9c98-f4e831a2c4ee}</destination>
