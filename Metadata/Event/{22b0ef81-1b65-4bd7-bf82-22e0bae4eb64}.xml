@@ -126,6 +126,9 @@
 		<property name="pitch">
 			<value>-2</value>
 		</property>
+		<relationship name="triggerConditions">
+			<destination>{8c9e4e09-7546-4a88-8f2d-6e3ded68db81}</destination>
+		</relationship>
 		<relationship name="fadeInCurve">
 			<destination>{9814a5f6-ed58-4990-97f7-dffaca8b3516}</destination>
 		</relationship>
@@ -164,6 +167,17 @@
 		</relationship>
 		<relationship name="endPoint">
 			<destination>{89416ba0-55f2-4e8a-8a2e-4d724e2e9fbc}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterCondition" id="{8c9e4e09-7546-4a88-8f2d-6e3ded68db81}">
+		<property name="minimum">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>1</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{ca273bb3-f61a-4709-98d1-30aa406baa1b}</destination>
 		</relationship>
 	</object>
 	<object class="FadeCurve" id="{9814a5f6-ed58-4990-97f7-dffaca8b3516}">

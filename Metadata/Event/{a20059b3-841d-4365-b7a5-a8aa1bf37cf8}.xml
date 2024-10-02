@@ -289,9 +289,6 @@
 		<property name="length">
 			<value>420</value>
 		</property>
-		<property name="triggerProbabilityEnabled">
-			<value>true</value>
-		</property>
 		<property name="triggerProbability">
 			<value>0</value>
 		</property>
@@ -362,7 +359,6 @@
 			<destination>{2c51b62b-59cc-4806-9591-d56df34b7021}</destination>
 		</relationship>
 		<relationship name="triggerConditions">
-			<destination>{e552fc22-333f-4c4e-aa5a-09944a163e6c}</destination>
 			<destination>{a1196724-9559-4555-9c40-8932281b2c80}</destination>
 			<destination>{55d11135-05bd-4735-ab8d-0c19de3cef03}</destination>
 			<destination>{cfb8c9ff-8b9d-443a-bd97-b1a81a7a7aa9}</destination>
@@ -597,20 +593,6 @@
 		</property>
 		<relationship name="parameter">
 			<destination>{8e74c9aa-ea9a-4865-ab4f-6157b28453df}</destination>
-		</relationship>
-	</object>
-	<object class="ParameterCondition" id="{e552fc22-333f-4c4e-aa5a-09944a163e6c}">
-		<property name="minimum">
-			<value>0</value>
-		</property>
-		<property name="maximum">
-			<value>0</value>
-		</property>
-		<property name="isInverted">
-			<value>true</value>
-		</property>
-		<relationship name="parameter">
-			<destination>{17cecccb-e55e-45fe-957d-e5a14ca86e2a}</destination>
 		</relationship>
 	</object>
 	<object class="ParameterCondition" id="{a1196724-9559-4555-9c40-8932281b2c80}">

@@ -103,6 +103,7 @@
 		<relationship name="markers">
 			<destination>{c3fd3aa1-bcee-4f3a-a3b3-a8e697d78329}</destination>
 			<destination>{d090642b-8f62-456d-bb6e-f04ee2dff021}</destination>
+			<destination>{47d58402-edc3-4efe-922b-6e5c9d29f1f8}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{c4259bb4-dea4-44bb-8c8c-233dbfb18606}">
@@ -288,6 +289,26 @@
 		</relationship>
 		<relationship name="transitionTimeline">
 			<destination>{7eb04bb5-ebc2-452d-b6ec-494a1c7e649c}</destination>
+		</relationship>
+	</object>
+	<object class="TransitionRegion" id="{47d58402-edc3-4efe-922b-6e5c9d29f1f8}">
+		<property name="position">
+			<value>28.686319564951283</value>
+		</property>
+		<property name="length">
+			<value>44.176000402359684</value>
+		</property>
+		<property name="transitionOffset">
+			<value>1</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{53388e24-ed81-49e0-8aa4-6ff62b4632af}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{b00ffc43-28eb-4e68-a244-43bc34369fd2}</destination>
+		</relationship>
+		<relationship name="destination">
+			<destination>{c3fd3aa1-bcee-4f3a-a3b3-a8e697d78329}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{47e44c59-18b2-409d-a340-0dfa5b071bbd}">
